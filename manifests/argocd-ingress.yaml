@@ -12,10 +12,10 @@ spec:
   ingressClassName: nginx
   tls:
     - hosts:
-        - argocd.digitalwitch.online
+        - argocd.pod7devopsengineers.online
       secretName: argocd-server-tls
   rules:
-    - host: argocd.digitalwitch.online
+    - host: argocd.pod7devopsengineers.online
       http:
         paths:
           - path: /
